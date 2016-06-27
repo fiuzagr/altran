@@ -1,0 +1,228 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: inventory-control\n"
+"POT-Creation-Date: 2016-06-25 23:20-0300\n"
+"PO-Revision-Date: 2016-06-25 22:44-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: resources/views/customer-box.html.php:5
+#: resources/views/customer-box.html.php:14 src/PostType/Customer.php:26
+msgid "E-mail"
+msgstr ""
+
+#: resources/views/customer-box.html.php:22
+#: resources/views/customer-box.html.php:31 src/PostType/Customer.php:27
+msgid "Phone"
+msgstr ""
+
+#: resources/views/customer-box.html.php:37
+#, php-format
+msgid "Format %s"
+msgstr ""
+
+#: resources/views/order-box.html.php:8 src/PostType/Order.php:28
+#: src/PostType/Product.php:22 src/PostType/Product.php:51
+#: src/PostType/Product.php:52
+msgid "Product"
+msgstr ""
+
+#: resources/views/order-box.html.php:21 resources/views/order-box.html.php:86
+msgid "Choose"
+msgstr ""
+
+#: resources/views/order-box.html.php:35
+msgid "Inventory Qty."
+msgstr ""
+
+#: resources/views/order-box.html.php:49 resources/views/order-box.html.php:64
+msgid "Product Qty."
+msgstr ""
+
+#: resources/views/order-box.html.php:73 src/PostType/Customer.php:22
+#: src/PostType/Customer.php:51 src/PostType/Customer.php:52
+#: src/PostType/Order.php:29
+msgid "Customer"
+msgstr ""
+
+#: resources/views/product-box.html.php:5
+#: resources/views/product-box.html.php:17 src/PostType/Product.php:26
+msgid "Price"
+msgstr ""
+
+#: resources/views/product-box.html.php:25
+#: resources/views/product-box.html.php:37 src/PostType/Product.php:27
+msgid "Qty."
+msgstr ""
+
+#: src/MetaBox/Customer.php:23
+msgid "Customer Info"
+msgstr ""
+
+#: src/MetaBox/Order.php:36 src/PostType/Order.php:23
+#: src/PostType/Order.php:63 src/PostType/Order.php:64
+msgid "Order"
+msgstr ""
+
+#: src/MetaBox/Order.php:55
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: src/MetaBox/Order.php:56
+msgid "New Order"
+msgstr ""
+
+#: src/MetaBox/Product.php:23
+msgid "Product Info"
+msgstr ""
+
+#: src/PostType/Customer.php:50 src/PostType/Customer.php:66
+#: src/PostType/Customer.php:67
+msgid "Customers"
+msgstr ""
+
+#: src/PostType/Customer.php:53
+msgid "All Customers"
+msgstr ""
+
+#: src/PostType/Customer.php:54
+msgid "New Customer Name"
+msgstr ""
+
+#: src/PostType/Customer.php:55
+msgid "Add New Customer"
+msgstr ""
+
+#: src/PostType/Customer.php:56
+msgid "Edit Customer"
+msgstr ""
+
+#: src/PostType/Customer.php:57
+msgid "Update Customer"
+msgstr ""
+
+#: src/PostType/Customer.php:58
+msgid "View Customer"
+msgstr ""
+
+#: src/PostType/Customer.php:59
+msgid "Popular Customers"
+msgstr ""
+
+#: src/PostType/Customer.php:60
+msgid "Search Customers"
+msgstr ""
+
+#: src/PostType/Customer.php:61
+msgid "Customers list"
+msgstr ""
+
+#: src/PostType/Customer.php:62
+msgid "Customers list navigation"
+msgstr ""
+
+#: src/PostType/Order.php:27
+msgid "Order Qty."
+msgstr ""
+
+#: src/PostType/Order.php:62 src/PostType/Order.php:78
+#: src/PostType/Order.php:79
+msgid "Orders"
+msgstr ""
+
+#: src/PostType/Order.php:65
+msgid "All Orders"
+msgstr ""
+
+#: src/PostType/Order.php:66
+msgid "New Order Name"
+msgstr ""
+
+#: src/PostType/Order.php:67
+msgid "Add New Order"
+msgstr ""
+
+#: src/PostType/Order.php:68
+msgid "Edit Order"
+msgstr ""
+
+#: src/PostType/Order.php:69
+msgid "Update Order"
+msgstr ""
+
+#: src/PostType/Order.php:70
+msgid "View Order"
+msgstr ""
+
+#: src/PostType/Order.php:71
+msgid "Popular Orders"
+msgstr ""
+
+#: src/PostType/Order.php:72
+msgid "Search Orders"
+msgstr ""
+
+#: src/PostType/Order.php:73
+msgid "Orders list"
+msgstr ""
+
+#: src/PostType/Order.php:74
+msgid "Orders list navigation"
+msgstr ""
+
+#: src/PostType/Product.php:50 src/PostType/Product.php:66
+#: src/PostType/Product.php:67
+msgid "Products"
+msgstr ""
+
+#: src/PostType/Product.php:53
+msgid "All Products"
+msgstr ""
+
+#: src/PostType/Product.php:54
+msgid "New Product Name"
+msgstr ""
+
+#: src/PostType/Product.php:55
+msgid "Add New Product"
+msgstr ""
+
+#: src/PostType/Product.php:56
+msgid "Edit Product"
+msgstr ""
+
+#: src/PostType/Product.php:57
+msgid "Update Product"
+msgstr ""
+
+#: src/PostType/Product.php:58
+msgid "View Product"
+msgstr ""
+
+#: src/PostType/Product.php:59
+msgid "Popular Products"
+msgstr ""
+
+#: src/PostType/Product.php:60
+msgid "Search Products"
+msgstr ""
+
+#: src/PostType/Product.php:61
+msgid "Products list"
+msgstr ""
+
+#: src/PostType/Product.php:62
+msgid "Products list navigation"
+msgstr ""

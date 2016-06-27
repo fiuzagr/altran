@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis:400,700';
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @include font-family();
+
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #000000;
+  background-color: #fff;
+
+  @media screen and (min-width: $screen-lg-min) {
+    background-color: #e6e6e6;
+  }
+}
+
+body > .wrap {
+  padding-top: $banner-height;
+}
+
+.wrap {
+  display: block;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+
+.show-only-in-mobile {
+  display: block;
+}
+.show-only-in-desktop {
+  display: none;
+}
+
+@media screen and (min-width: $screen-lg-min) {
+  .show-only-in-mobile {
+    display: none;
+  }
+  .show-only-in-desktop {
+    display: block;
+  }
+}

@@ -1,0 +1,29 @@
+
+.form-search {
+  padding: .1rem 9rem 0 0;
+
+  .form-group__input {
+    width: 13.2rem;
+
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+
+  @media screen and (max-width: $screen-lg-min) {
+    padding: 1rem;
+    width: 100%;
+
+    .form-group {
+      .form-group__input {
+        width: 100%;
+        padding: .4rem 1rem;
+
+        border-radius: .6rem;
+
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+    }
+  }
+}

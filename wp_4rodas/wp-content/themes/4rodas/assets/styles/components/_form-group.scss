@@ -1,0 +1,14 @@
+
+.form-group {
+  .form-group__input {
+    @include font-family;
+    width: 100%;
+    padding: 1rem;
+
+    border: 0;
+
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,164 @@
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: auto;
+
+  &.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  > .wrap {
+    position: relative;
+
+    text-align: center;
+    background-color: $brand-primary;
+
+    @media screen and (min-width: $screen-lg-min) {
+      text-align: left;
+    }
+  }
+
+  .navbar__brand {
+    @include text-hide;
+
+    display: inline-block;
+    padding: 1.2rem;
+
+    img {
+      width: auto;
+      height: 3.2rem;
+    }
+
+    @media screen and (min-width: $screen-lg-min) {
+      padding: 2rem;
+
+      img {
+        width: auto;
+        height: 4.3rem;
+      }
+    }
+  }
+
+  .navbar__button {
+    position: absolute;
+    top: 0;
+    padding: 1.5rem 2rem 1.4rem;
+
+    border: 0;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: $brand-primary;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-decoration: none;
+
+    &.search {
+      left: 0;
+    }
+
+    &.menu {
+      right: 0;
+    }
+
+    &.is-active {
+      background-color: $brand-secondary;
+    }
+  }
+
+
+  .navbar__collapses {
+    width: 100%;
+
+    background-color: $brand-secondary;
+    text-align: left;
+    text-transform: uppercase;
+
+    .navbar__collapses__item {
+      display: none;
+
+      > a {
+        display: inline-block;
+        padding: 1.2rem 2rem;
+      }
+    }
+
+    @media screen and (min-width: $screen-lg-min) {
+      position: absolute;
+      top: 1.8rem;
+      right: 0;
+      width: auto;
+
+      background-color: transparent;
+
+      .navbar__collapses__item {
+        display: block !important;
+        float: right;
+      }
+    }
+  }
+
+  .nav-primary {
+    padding-bottom: $banner-height;
+
+    .nav {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .menu-item {
+      a {
+        display: block;
+        position: relative;
+        padding: 1.2rem 2rem;
+
+        font-weight: 700;
+        color: #ffffff;
+        border-top: .1rem solid #ffffff;
+
+        &:after {
+          @include icon;
+
+          position: absolute;
+          top: 1.2rem;
+          right: 2rem;
+
+          content: "\f107";
+          font-size: 1.8rem;
+        }
+
+        &,
+        &:focus,
+        &:hover,
+        &:focus:hover {
+          background-color: transparent;
+        }
+      }
+
+      &:first-child {
+        a {
+          border-top: 0;
+        }
+      }
+    }
+
+    @media screen and (min-width: $screen-lg-min) {
+      padding-bottom: 0;
+
+      .menu-item {
+        display: inline-block;
+
+        a {
+          border: 0;
+
+          &:after {
+            top: 1.5rem;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}
